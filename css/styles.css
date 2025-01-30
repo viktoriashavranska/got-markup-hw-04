@@ -343,6 +343,7 @@ a {
 .social-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .social-link-team:hover,
 .social-link-team:focus {
@@ -529,7 +530,7 @@ a {
   margin-right: 120px;
 }
 
-.social-list {
+.social-list-footer {
   display: flex;
   justify-content: center;
   gap: 16px;
