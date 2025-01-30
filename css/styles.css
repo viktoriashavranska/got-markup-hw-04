@@ -1,0 +1,384 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+/*reset*/
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/*common*/
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-align: left;
+  margin-right: 76px;
+}
+
+/*header*/
+
+.header-logo .logo-part {
+  color: #2e2f42;
+  padding: 76px 0;
+  margin-right: 76px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  padding: 24px 0;
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.contacts-link {
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding: 24px 0 24px 0;
+  display: block;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.page-header {
+  background-color: #fff;
+}
+
+/*section 1 */
+.hero-page {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.hero-page {
+  align-items: center;
+}
+.hero-name {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
+}
+
+.hero-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  padding: 16px 32px;
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+/*section TWO */
+.our-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16667;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 0;
+  padding: 120px 0;
+}
+.about {
+  background-color: #fff;
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  /*margin-bottom: 8px;*/
+}
+.list-info {
+  background-color: #fff;
+}
+.list-info {
+  display: flex;
+
+  gap: 24px;
+}
+.list-info-text {
+  width: calc((100% - 72px) / 4);
+}
+.info-page {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.info-text {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/*section THREE */
+.team-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.our-team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-team {
+  align-items: center;
+  gap: 24px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.ot-team-list {
+  background-color: #fff;
+
+  gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.ot-team-list .team-item {
+  padding: 32px 0;
+}
+.ot-name,
+.p-app {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.info-text,
+.ot-info,
+.p-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*section FOUR */
+.list-portfolio {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.container-bank {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+.portfolio-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.title-p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.list-info-portf {
+  background-color: #fff;
+}
+.ot-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.ot-name,
+.ot-info {
+  text-align: center;
+}
+
+.list-portfolio {
+  background-color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.list-info-portf {
+  weight: calc((100% - 48px) / 3);
+}
+
+/*FOOTER*/
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  text-align: left;
+  max-width: 264px;
+}
+.page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-align: left;
+  margin-right: 76px;
+}
